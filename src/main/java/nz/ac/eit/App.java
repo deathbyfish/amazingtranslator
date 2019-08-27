@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "What is the number to translate?" );
-        System.out.println("Please state the number in english")
+        System.out.println("Please state the number in english");
         Scanner scan = new Scanner(System.in);
         String userInput = scan.nextLine();
         int intUI = Integer.parseInt(userInput);
